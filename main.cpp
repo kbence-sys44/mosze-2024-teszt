@@ -12,11 +12,11 @@ int main()
         }
     for (int i = 0; i; i++) // befejezetlen for ciklus
     {
-        std::cout << "Ertek:" // lezaratlan ln
+        std::cout << "Ertek:" // lezaratlan ln es nem ir ki erteket
     }
     std::cout << "Atlag szamitasa: " << std::endl;
-    int atlag;
-    for (int i = 0; i < N_ELEMENTS, i++)
+    int atlag; // nem float es nincs inicializalva
+    for (int i = 0; i < N_ELEMENTS, i++) // elirt for ciklus
     {
         atlag += b[i] // hianyzo ;
     }
